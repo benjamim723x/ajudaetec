@@ -1,0 +1,58 @@
+body {
+    background-color: #dbe9ff;
+    font-family: Georgia, serif;
+}
+header {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.2em;
+    text-align: left;
+    margin-top: 10px;
+}
+nav {
+    text-align: right;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+nav a.active {
+    color: blue;
+}
+.underline {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.slogan {
+    background-color: #99dbff;
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px;
+    max-width: 80%;
+    font-size: 1.4em;
+}
+.secao {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.secao h2 {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #999;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
